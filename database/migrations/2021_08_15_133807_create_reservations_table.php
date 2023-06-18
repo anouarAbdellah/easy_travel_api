@@ -20,6 +20,7 @@ class CreateReservationsTable extends Migration
             $table->string('phone')->nullable();
             $table->string('number')->nullable();
             $table->integer('seat')->nullable();
+            $table->integer('cart')->nullable();
             $table->integer('trip_id')->nullable();
             $table->integer('start_point_id')->nullable();
             $table->integer('end_point_id')->nullable();
